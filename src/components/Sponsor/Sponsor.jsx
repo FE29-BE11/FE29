@@ -1,15 +1,10 @@
 import React from 'react'
 
-import { Helmet } from 'react-helmet'
-
 import './sponsor.css'
 
-const Sponsor = (props) => {
+const Sponsor = () => {
   return (
     <div className="sponsor-container">
-      <Helmet>
-        <title>exported project</title>
-      </Helmet>
       <div className="sponsor-sponsor">
         <img
           src="/external/image54304-e6c8-1500w.png"
