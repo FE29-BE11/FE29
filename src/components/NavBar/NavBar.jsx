@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import logo from './logo.png'
+import Deskripsi from './Deskripsi.html'
 
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -36,7 +37,7 @@ const NavBar = () => {
         <div className="collapse navbar-collapse gap-3 d-flex justify-content-between" id="navbarNav">
           <ul className="navbar-nav fw-600 gap-3">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">PROGRAM</a>
+              <a className="nav-link active" aria-current="page" href={Deskripsi}>PROGRAM</a>
             </li>
             <li className="nav-item">
               <a className="nav-link active" href="#">LANGGANAN</a>
