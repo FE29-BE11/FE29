@@ -2,7 +2,7 @@ import React from 'react'
 import './HeroStyle.css'
 
 
-const hero = () => {
+const Hero = () => {
   return (
     <>
     <div className="hero-container">
@@ -50,4 +50,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default Hero
