@@ -25,13 +25,13 @@ const hero = () => {
             <span>WHAT WE DO</span>
           </span>
         </span>
-        <div className="hero-group1joinnow">
+        <button className="hero-group1joinnow">
           <div className="hero-btnjoin">
             <span className="hero-text7">
               <span>JOIN NOW!</span>
             </span>
           </div>
-        </div>
+        </button>
         <div className="hero-group16">
           <img
             src="/external/image74254-ud2k-500w.png"

@@ -1,36 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import logo from './logo.png'
+import React from 'react'
 
-const NavBar = () => {
-    const [activeLink, setActiveLink] = useState('home');
-    const [scrolled, setScrolled] = useState(false);
-
-    useEffect(() => {
-        const onScroll = () => {
-            if (window.scrollY > 50) {
-                setScrolled(true);
-            } else {
-                setScrolled(false);
-            }
-        };
-
-        window.addEventListener('scroll', onScroll);
-
-        return () => window.removeEventListener('scroll', onScroll);
-    }, []);
-
-    const onUpdateActiveLink = (value) => {
-        setActiveLink(value);
-    };
-
-    return (
-        <>
-      <nav className="navbar navbar-expand-lg bg-transparant">
+const TestDetail = () => {
+  return (
+    <>
+    <nav className="navbar navbar-expand-lg bg-transparant">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src={logo} alt="" />
+          <img src="./img/logo.png" alt="" />
         </a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button classNameName="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse gap-3 d-flex justify-content-between" id="navbarNav">
@@ -59,8 +37,8 @@ const NavBar = () => {
         </div>
       </div>
     </nav>
-        </>
-    );
-};
+    </>
+  )
+}
 
-export default NavBar;
+export default TestDetail

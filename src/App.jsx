@@ -6,6 +6,8 @@ import Sponsor from './components/Sponsor/Sponsor'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Page/Home'
 import Donation from './Page/Donation'
+import CardSection from './components/Card/CardSection'
+import Footer from './components/Footer/Footer'
 
 
 
@@ -16,11 +18,8 @@ const App = () => {
       <NavBar />
       <Hero />
       <Sponsor />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/donation" element={<Donation />} />
-        <Route path="*" element={<p>page not found</p>} />
-      </Routes>
+      <CardSection />
+      <Footer />
     </>
   )
 }
