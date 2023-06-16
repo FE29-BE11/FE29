@@ -7,6 +7,8 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './Page/Home'
 import CardSection from './components/Card/CardSection'
 import Footer from './components/Footer/Footer'
+import DetailProgram from './components/DetailProgram/Detail'
+import Deskripsi from './Page/Deskripsi'
 
 
 

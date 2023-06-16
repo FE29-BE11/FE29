@@ -51,7 +51,7 @@ const CardSection = () => {
                         </div>
                     </div>
                   <div className="col">
-                    <p className="text-rekomendasi-kategori text-muted">Youth & Technology Workshop </p>
+                    <p className="text-rekomendasi-kategori text-muted">Youth & Technology Workshop</p>
                   </div>
                 </div>
             </div>
